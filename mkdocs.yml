@@ -23,8 +23,8 @@ docs_dir: docs
 nav: 
   - La page d'accueil : index.md
   - Un notebook jupyter : Notebook.ipynb
-  - PyScript H : pyscript.html
-  - PyScript M : pyscript.md
+  - PyScript.html : pyscript.html
+  - PyScript.md : pyscript.md
   # Référencer vos autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
