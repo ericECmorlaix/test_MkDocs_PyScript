@@ -102,8 +102,11 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abb
 plugins:
   - search # Inclure une barre de recherche
   - mkdocs-jupyter: # Convertir les fichiers .ipynb et .py en pages du site https://github.com/danielfrg/mkdocs-jupyter
+      include: ["*.ipynb"]  # Default: ["*.py", "*.ipynb"]
+      # ignore: ["some-irrelevant-files/*.ipynb"]
       include_source: True # Inclu une copie du fichier source.ipynb (ou .py) dans le dossier de la page sur le site pour son téléchargement
-
+    
+      
 
 ### Configuration d'une licence
 # Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
@@ -131,7 +134,7 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://pyscript.net/alpha/pyscript.js
+  # - https://pyscript.net/alpha/pyscript.js
 
 # Configuration de css complémentaires
 extra_css:
