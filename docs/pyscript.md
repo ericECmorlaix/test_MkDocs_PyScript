@@ -1,3 +1,4 @@
+<div>
 <py-script>
     print("Demat d'an holl")
 </py-script>
@@ -22,3 +23,4 @@
       pyscript.write('today', dt.date.today().strftime('%A %B %d, %Y'))      
       pyscript.write('toto', f'Toto est dans la place !')
 </py-script>
+</div>
