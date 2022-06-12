@@ -1,9 +1,4 @@
 
----
-template: custom.html
----
-
-## Page customisée 
 
 <div>
 <py-script>
