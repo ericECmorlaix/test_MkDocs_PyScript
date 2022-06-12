@@ -2,9 +2,10 @@
 
 {% extends "base.html" %}
 
-<!-- {% block scripts %}
+{% block scripts %}
+    {{ super() }}
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-{% endblock %} -->
+{% endblock %}
 
 {% block content %}
 {% if page.nb_url %}
