@@ -1,4 +1,9 @@
 
+---
+template: pyscript.html
+---
+
+## Page customisée pour PyScript
 
 <div>
 <py-script>
