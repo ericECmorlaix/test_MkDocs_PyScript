@@ -2,6 +2,11 @@
 
 {% extends "base.html" %}
 
+{% block scripts %}
+    {{ super() }}
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+{% endblock %}
+
 {% block content %}
 {% if page.nb_url %}
     <a href="{{ page.nb_url }}" title="Download Notebook" class="md-content__button md-icon">

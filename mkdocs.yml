@@ -25,6 +25,8 @@ nav:
   - Un notebook jupyter : Notebook.ipynb
   - PyScript.html : pyscript.html
   - PyScript.md : pyscript.md
+  - PyScript_JupyterLike_REPL.html: JupyterLike_REPL.html
+  - PyScript_JupyterLike_REPL.md: JupyterLike_REPL.md
   - PyScript_REPL.html : page_REPL.html
   # Référencer vos autres pages ci-dessus...
 
