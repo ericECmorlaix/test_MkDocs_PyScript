@@ -1,5 +1,7 @@
 ## Intégration d'un REPL PyScript JupyterLike dans une page MarkDown de MkDocs
 
+> Pour chaque cellules ci-dessous, utiliser la combinaison de touches ++"⇑ Maj."+"Entrée ↵"++ pour exécuter le code...
+
 <div>
   <py-repl>
 def inverse_chaine(chaine):
