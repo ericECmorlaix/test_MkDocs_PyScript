@@ -1,3 +1,7 @@
+---
+template: pyscript-custom.html
+---
+
 ## Intégration de PyScript dans une page MarkDown de MkDocs
 
 - Le code :
